@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Baca gambar
-img = cv2.imread('Downloads/gambar nama.jpg', 0)
+img = cv2.imread('gambar nama.jpg', 0)
 
 # Buat kernel untuk erosi dan dilatasi
 kernel = np.ones((5,5), np.uint8)
